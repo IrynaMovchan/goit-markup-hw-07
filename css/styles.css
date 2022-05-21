@@ -583,17 +583,17 @@ img {
 
 /* Portfolio */
 
-.filters-item {
+.portfolio__filters {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-.filters-item li:not(:last-child) {
+.portfolio__filters li:not(:last-child) {
   margin-right: 8px;
 }
 
-.filters-btn {
+.portfolio__btn {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -610,15 +610,15 @@ img {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters-btn:hover,
-.filters-btn:focus {
+.portfolio__btn:hover,
+.portfolio__btn:focus {
   color: var(--contacts-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.filters-current {
+.portfolio__current {
   color: var(--contacts-color);
   background: var(--accent-color);
 }
@@ -630,7 +630,7 @@ img {
   margin-top: -30px;
 }
 
-.projects-item {
+.projects__item {
   background: var(--contacts-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -642,22 +642,22 @@ img {
   margin-top: 30px;
 }
 
-.projects-link {
+.projects__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-link:hover,
-.projects-link:focus {
+.projects__link:hover,
+.projects__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-thumb {
+.projects__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.projects-overlay {
+.projects__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -670,13 +670,13 @@ img {
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-link:hover .projects-overlay,
-.projects-link:focus .projects-overlay {
+.projects__link:hover .projects__overlay,
+.projects__link:focus .projects__overlay {
   opacity: 1;
   transform: translateY(0);
 }
 
-.projects-overlay-text {
+.projects__text {
   position: absolute;
   display: flex;
   top: 50%;
@@ -690,16 +690,16 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-link:hover .projects-overlay-text,
-.projects-link:focus .projects-overlay-text {
+.projects__link:hover .projects__text,
+.projects__link:focus .projects__text {
   opacity: 1;
 }
 
-.projects-description {
+.projects__description {
   padding: 20px 24px;
 }
 
-.project-name {
+.projects__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -708,7 +708,7 @@ img {
   margin-bottom: 4px;
 }
 
-.filters-type {
+.projects__type {
   font-size: 16px;
   line-height: 1.88;
   color: var(--secondary-text-color);
