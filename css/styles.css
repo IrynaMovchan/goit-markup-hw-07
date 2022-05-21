@@ -387,18 +387,18 @@ img {
 
 /* ------FEATURES------ */
 
-.features-list {
+.features__list {
   display: flex;
   flex-basis: calc((100% - 120px) / 4);
   margin-left: -30px;
 }
 
-.features-item {
+.features__item {
   min-width: 270px;
   margin-left: 30px;
 }
 
-.features-icon-bg {
+.features__icon-bg {
   display: flex;
   height: 120px;
   border-radius: 4px;
@@ -408,11 +408,11 @@ img {
   justify-content: center;
 }
 
-.features-icon {
+.features__icon {
   align-items: center;
 }
 
-.features-name {
+.features__name {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -421,7 +421,7 @@ img {
   margin-bottom: 10px;
 }
 
-.features-text {
+.features__text {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -432,25 +432,25 @@ img {
   padding-top: 0;
 }
 
-.actions-list {
+.actions__list {
   display: flex;
   flex-basis: calc((100%-90px) / 3);
   margin-left: -30px;
 }
 
-.actions-item {
+.actions__item {
   margin-left: 30px;
 }
 
-.actions-wrap {
+.actions__wrap {
   position: relative;
 }
 
-.actions-name {
+.actions__title {
   margin-bottom: 45px;
 }
 
-.actions-description {
+.actions__description {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -468,9 +468,7 @@ img {
 
 /* ------OUR TEAM------ */
 
-.actions-name,
-.team-name,
-.clients-name {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -482,17 +480,17 @@ img {
   background-color: var(--background-filters-btn-color);
 }
 
-.team-name {
+.team__title {
   margin-bottom: 50px;
 }
 
-.team-cards {
+.team__cards {
   display: flex;
   flex-basis: calc((100% - 120px) / 4);
   margin-left: -30px;
 }
 
-.worker-card {
+.team__worker {
   padding-bottom: 30px;
   margin-left: 30px;
   background-color: var(--contacts-color);
@@ -501,11 +499,11 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.photo {
+.worker__photo {
   margin-bottom: 30px;
 }
 
-.worker-name {
+.worker__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -514,7 +512,7 @@ img {
   margin-bottom: 10px;
 }
 
-.position {
+.worker__position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -522,30 +520,27 @@ img {
   margin-bottom: 16px;
 }
 
-.team .socials-link {
+.worker .socials__link {
   fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.team .socials-link:hover {
+.worker .socials__link:hover {
   fill: var(--contacts-color);
 }
 
-.team .socials-link:focus {
+.worker .socials__link:focus {
   fill: var(--contacts-color);
 }
 
 /* --Постоянные клиенты-- */
 
-.clients-name {
+.clients__title {
   margin-bottom: 50px;
 }
 
-.clients-cards {
+.clients__cards {
   display: flex;
   padding: 0;
   margin: 0;
@@ -553,11 +548,11 @@ img {
   align-items: center;
 }
 
-.clients-cards-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-cards-logo {
+.clients__logo {
   width: 170px;
   height: 92px;
   display: flex;
@@ -569,20 +564,20 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-cards-logo:hover {
+.clients__logo:hover {
   border: 1px solid var(--accent-color);
 }
 
-.icon-logo {
+.clients__icon {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-cards-logo:hover .icon-logo {
+.clients__logo:hover .clients__icon {
   fill: var(--accent-color);
 }
 
-.clients-cards-logo:focus .icon-logo {
+.clients__logo:focus .clients__icon {
   fill: var(--accent-color);
 }
 
