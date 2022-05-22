@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --logo-color: #000000;
   --accent-color: #2196f3;
@@ -10,7 +11,7 @@
 }
 
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 14px;
   background-color: var(--contacts-color);
   letter-spacing: 0.03em;
@@ -46,6 +47,7 @@ img {
 .link {
   text-decoration: none;
 }
+
 .list {
   list-style: none;
 }
@@ -80,7 +82,7 @@ img {
 }
 
 .btn {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -93,14 +95,13 @@ img {
 }
 
 /* Header */
-
 .navigation {
   display: flex;
   align-items: center;
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -134,12 +135,13 @@ img {
 .menu-list__item:not(:last-child) {
   margin-right: 50px;
 }
+
 .current {
   position: relative;
 }
 
 .current::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -206,8 +208,8 @@ img {
 .contacts__phone:hover > .contacts__icon {
   fill: var(--accent-color);
 }
-/* Footer */
 
+/* Footer */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -330,7 +332,7 @@ img {
 }
 
 .email__btn::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 24px;
   height: 20px;
@@ -339,19 +341,15 @@ img {
 }
 
 /* Index */
-
 /* ------HERO------ */
-
 .hero {
   background-color: var(--background-hero-color);
   padding: 200px 0;
-
   margin-right: auto;
   margin-left: auto;
   max-width: 1600px;
   height: 600px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero-bg.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -380,7 +378,6 @@ img {
 }
 
 /* ------FEATURES------ */
-
 .features__list {
   display: flex;
   flex-basis: calc((100% - 120px) / 4);
@@ -421,14 +418,12 @@ img {
 }
 
 /* ------WHAT WE ARE DOING------ */
-
 .actions {
   padding-top: 0;
 }
 
 .actions__list {
   display: flex;
-  flex-basis: calc((100%-90px) / 3);
   margin-left: -30px;
 }
 
@@ -461,7 +456,6 @@ img {
 }
 
 /* ------OUR TEAM------ */
-
 .section__title {
   font-size: 36px;
   line-height: 1.17;
@@ -487,8 +481,7 @@ img {
   padding-bottom: 30px;
   margin-left: 30px;
   background-color: var(--contacts-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -515,8 +508,7 @@ img {
 
 .worker .socials__link {
   fill: #afb1b8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .worker .socials__link:hover {
@@ -528,7 +520,6 @@ img {
 }
 
 /* --Постоянные клиенты-- */
-
 .clients__title {
   margin-bottom: 50px;
 }
@@ -575,7 +566,6 @@ img {
 }
 
 /* Portfolio */
-
 .portfolio__filters {
   margin-bottom: 50px;
   display: flex;
@@ -595,17 +585,14 @@ img {
   background: var(--background-filters-btn-color);
   box-shadow: none;
   padding: 6px 22px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio__btn:hover,
 .portfolio__btn:focus {
   color: var(--contacts-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio__current {
@@ -626,8 +613,7 @@ img {
   box-sizing: border-box;
   display: flex;
   max-width: 370px;
-
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc(33.3333333333% - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -638,8 +624,7 @@ img {
 
 .projects__link:hover,
 .projects__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects__thumb {
@@ -656,8 +641,7 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
   transform: translateY(100%);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects__link:hover .projects__overlay,
@@ -705,7 +689,6 @@ img {
 }
 
 /* --МОДАЛЬНОЕ ОКНО-- */
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -715,8 +698,7 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -739,8 +721,7 @@ img {
   min-height: 581px;
   padding: 40px;
   background-color: var(--contacts-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -820,7 +801,7 @@ img {
 .form__field:focus,
 .textarea__field:hover,
 .textarea__field:focus {
-  border-color: rgba(33, 150, 243, 1);
+  border-color: rgb(33, 150, 243);
 }
 
 .form__input:hover .form__icon,
@@ -919,4 +900,4 @@ img {
 .modal__btn-submit:hover,
 .modal__btn-submit:focus {
   background-color: #188ce8;
-}
+}/*# sourceMappingURL=main.css.map */
