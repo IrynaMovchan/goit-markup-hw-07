@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --logo-color: #000000;
   --accent-color: #2196f3;
@@ -18,7 +17,6 @@ body {
   color: var(--main-text-color);
 }
 
-/* Сбрасывает стили */
 p,
 h1,
 h2,
@@ -94,7 +92,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* Header */
 .navigation {
   display: flex;
   align-items: center;
@@ -209,7 +206,6 @@ img {
   fill: var(--accent-color);
 }
 
-/* Footer */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -340,8 +336,6 @@ img {
   background-image: url(../images/send.svg);
 }
 
-/* Index */
-/* ------HERO------ */
 .hero {
   background-color: var(--background-hero-color);
   padding: 200px 0;
@@ -377,7 +371,6 @@ img {
   padding: 10px 32px;
 }
 
-/* ------FEATURES------ */
 .features__list {
   display: flex;
   flex-basis: calc((100% - 120px) / 4);
@@ -417,7 +410,6 @@ img {
   color: var(--secondary-text-color);
 }
 
-/* ------WHAT WE ARE DOING------ */
 .actions {
   padding-top: 0;
 }
@@ -455,7 +447,6 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/* ------OUR TEAM------ */
 .section__title {
   font-size: 36px;
   line-height: 1.17;
@@ -519,7 +510,6 @@ img {
   fill: var(--contacts-color);
 }
 
-/* --Постоянные клиенты-- */
 .clients__title {
   margin-bottom: 50px;
 }
@@ -565,7 +555,6 @@ img {
   fill: var(--accent-color);
 }
 
-/* Portfolio */
 .portfolio__filters {
   margin-bottom: 50px;
   display: flex;
@@ -688,7 +677,6 @@ img {
   color: var(--secondary-text-color);
 }
 
-/* --МОДАЛЬНОЕ ОКНО-- */
 .backdrop {
   position: fixed;
   top: 0;
