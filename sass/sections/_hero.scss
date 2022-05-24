@@ -11,26 +11,26 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.hero__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.hero__moto {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--contacts-color);
-  max-width: 696px;
-  margin-bottom: 30px;
-}
+  &__moto {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--contacts-color);
+    max-width: 696px;
+    margin-bottom: 30px;
+  }
 
-.hero__btn {
-  padding: 10px 32px;
+  &__btn {
+    padding: 10px 32px;
+  }
 }
